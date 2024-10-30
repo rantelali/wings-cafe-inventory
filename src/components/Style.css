@@ -1,0 +1,155 @@
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Form Styles */
+form {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px;
+}
+
+form input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Product Table */
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#productTable th, #productTable td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+#productTable th {
+    background-color: #2980b9;
+    color: white;
+}
+
+#productTable td button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#productTable td button:hover {
+    background: #2980b9;
+}
+
+/* User List */
+#userList div {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+
+#userList button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#userList button:hover {
+    background: #2980b9;
+}
+
+
+/* Add styles for the container */
+#container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center Logo */
+#logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+}
